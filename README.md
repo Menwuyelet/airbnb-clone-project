@@ -25,3 +25,20 @@
 6. Redis - It is in-memory key-value data store. in the project it is used for caching, session management and as message broker from django to Celery.
 7. Docker - It is a containerization platform that is used to package applications and their dependencies in to a unit called container. in the project it is used to containerize the project and all its dependencies for isolation and consistency.
 8. CI/CD Pipelines - are automated pipelines for testing and deploying code changes. it is used in the project to automate tests for ensuring bug free code and to automate deployment after updating the code base for fast and easy updating.
+
+
+## Database Design
+
+- The key entities in this project with their attributes are:
+1. Users with attributes such as: user_id, user_name, first_name, last_name, contact, is_host
+2. Property with fields: property_id, host, location, price, description
+3. Booking wit fields: booking_id, guest, property, start_date, end_date, status
+4. Payment with fields: payment_id, booking, amount, payment_date, status
+5. Review with fields: review_id, author, property, rating, description, created_at
+
+- These entities has a relation ship one wit other such as:
+* a user can host multiple Properties, can make many Bookings, can author multiple Reviews.
+* each Property belongs only to one Host, can have many Bookings and can have many Reviews.
+* each Booking belongs to one property and one gust
+* each review is written by one User for one Property.
+* each Payment is for one Booking and one Booking can have multiple Payments.
