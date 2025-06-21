@@ -42,3 +42,11 @@
 * each Booking belongs to one property and one gust
 * each review is written by one User for one Property.
 * each Payment is for one Booking and one Booking can have multiple Payments.
+
+##  Feature Breakdown
+
+- The project offers features such as managing user interactions, property listings, bookings, and payments processing. each feature contributes to the project in its own way that is:
+1. Managing User Interactions: This feature handles user registration, authentication, and profile management, enabling secure access and personalized experiences. making the project secure and efficient.
+2. Property Listings: Property owners can create, update, and manage listings by adding descriptions, prices, and availability. This allows users to browse properties easily filtering based on preferences,  available, prices and make informed decisions.
+3. Bookings: This feature allows users to book properties for specific dates, handling availability checks and conflict prevention. It plays a central role in the main goal of the project connecting property owners with potential renters in a smooth and organized way.
+4. Payments Processing: Secure payment integration ensures that users can pay for bookings directly through the platform. It automates transaction handling, supports multiple payment methods, and ensures both users and hosts receive the desired service with ease. 
