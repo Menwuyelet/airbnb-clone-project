@@ -49,4 +49,16 @@
 1. Managing User Interactions: This feature handles user registration, authentication, and profile management, enabling secure access and personalized experiences. making the project secure and efficient.
 2. Property Listings: Property owners can create, update, and manage listings by adding descriptions, prices, and availability. This allows users to browse properties easily filtering based on preferences,  available, prices and make informed decisions.
 3. Bookings: This feature allows users to book properties for specific dates, handling availability checks and conflict prevention. It plays a central role in the main goal of the project connecting property owners with potential renters in a smooth and organized way.
-4. Payments Processing: Secure payment integration ensures that users can pay for bookings directly through the platform. It automates transaction handling, supports multiple payment methods, and ensures both users and hosts receive the desired service with ease. 
+4. Payments Processing: Secure payment integration ensures that users can pay for bookings directly through the platform. It automates transaction handling, supports multiple payment methods, and ensures both users and hosts receive the desired service with ease.
+
+
+## API Security
+
+- To insure the project is secure, several security measures are implemented such as:
+1. Authentication: It is a method used to ensure that only legitimate users can access the system. to achieve this token-based authentication is used. it is important to protect personal data form unauthorized use and enabling for authorization the other security measure used in the project to insure the security of the system.
+2. Authorization: It is a method used to control what authenticated users are allowed to do in the system. it is crucial because it ensures that users can only see their own bookings, profiles and edit only their profiles. for property users it only allows the owner of that specific property is allowed to offer the property to users and manage it.
+3. Rate Limiting - Rate limiting is used to control network traffic in order to avoid system overload. it restricts the number of requests a user can make to the system within a certain time frame. it contributes to the project security by preventing brute-force login attacks and denial-of-service attacks.
+4. Input Validation & Sanitization: It is the process of checking and cleaning of input data from users to prevent malicious data from entering the system. it contributes to the systems security measure by preventing attacks such as SQL injections and cross site scripting(XSS).
+5. Secure Payment Processing: It is a multi stage approach to ensure the confidentiality, integrity and authenticity of financial transactions through encryption, authentication and fraud detection. it contributes to the systems security by providing a secure way to perform one of the core feature of the system which is payment processing.
+
+- The security of the system is very important because the system handles very sensitive data such as financial information of the users, property details and different personal details. by implementing the security measures mentioned above will make the system trust worthy and safe.
