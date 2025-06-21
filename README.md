@@ -62,3 +62,12 @@
 5. Secure Payment Processing: It is a multi stage approach to ensure the confidentiality, integrity and authenticity of financial transactions through encryption, authentication and fraud detection. it contributes to the systems security by providing a secure way to perform one of the core feature of the system which is payment processing.
 
 - The security of the system is very important because the system handles very sensitive data such as financial information of the users, property details and different personal details. by implementing the security measures mentioned above will make the system trust worthy and safe.
+
+## CI/CD Pipeline
+
+- CI/CD (Continuous Integration and Continuous Deployment) pipelines:  are a series of steps that automate the process of testing code changes before integrating them to the code base permanently ensuring that the code changes will work with the existing code base and deploying code changes to automatically update the application based on the code changes.
+- CI/CD pipelines are important to the project as they allow us to develop and deploy easily and rapidly by insuring code integration and correctness via automated tests and deploying code changes easily by automated deployment.
+- There are several tools that are used to implement CI/CD pipelines such as: 
+1. GitHub Actions: Is a CI/CD platform that allows to automate project build, test and deployment directly form the GitHub repository.
+2. Docker: It is a platform that uses containerization technology to build, test, and deploy applications.
+3. Azure DevOps: Is a platform that provides tools for version control, project management and CI/CD implementations.
